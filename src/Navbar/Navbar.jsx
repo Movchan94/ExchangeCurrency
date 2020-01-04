@@ -4,14 +4,11 @@ import {NavLink} from "react-router-dom";
 
 
 const Navbar = () => {
-
     return (
         <div className={styles.Navbar}>
             <NavLink className={styles.Navlink} to="/main">Главная</NavLink>
-            <NavLink className={styles.Navlink} to="/exchange_point">Пункты обмена</NavLink>
-            <NavLink className={styles.Navlink} to="/contacts">Контакты</NavLink>
+            <NavLink className={styles.Navlink} to="/puncts_exchange">Пункты обмена</NavLink>
         </div>
     )
 }
-
 export default Navbar

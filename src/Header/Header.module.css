@@ -3,7 +3,8 @@
 
   grid-area: header;
   background-color: lightblue;
-
+  justify-content: center;
+  text-align: center;
 
 
 
